@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "@babel/preset-env",  // 兼容es6
+        "@babel/preset-react"  // 兼容react
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import"   // 提供动态import
+    ]
+}
